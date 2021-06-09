@@ -1,0 +1,49 @@
+#lectures-table {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: #2b5b84;
+}
+#nav-lectures {
+    color: white;
+    background: linear-gradient(#13191e 10%,#1f2a32 90%);
+}
+
+#th {
+    color: black;
+}
+
+
+.lecture {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.lecture > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.week {
+    color: black;
+    flex: 1.5;
+}
+
+.topic {
+    flex: 4;
+}
+
+.reading {
+    flex: 2;
+}
+
+.material {
+    flex: 4;
+}
+
+.inclass {
+    flex: 4;
+}

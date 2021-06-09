@@ -1,0 +1,18 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/calendar.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - Calendar
+{% endblock %}
+
+{% block titletext %}
+    Calendar
+{% endblock %}
+
+{% block content %}
+    <iframe id="calendarframe"
+            src="https://calendar.google.com/calendar/embed?src=salq3mnq40k9vjd958ts1b606s%40group.calendar.google.com&ctz=America%2FToronto"
+            style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+{% endblock %}

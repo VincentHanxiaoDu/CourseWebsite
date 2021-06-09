@@ -1,0 +1,22 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/error_views/common_error.css">
+{% endblock %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block titletext %}
+    Error Code
+{% endblock %}
+
+{% block content %}
+    <div class="errdiv">
+    <span class="errmsg">
+        {% block content_div %}
+            Error Info
+        {% endblock %}
+    </span>
+    </div>
+{% endblock %}

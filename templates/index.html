@@ -1,0 +1,44 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/index.css">
+{% endblock %}
+{% block title %}
+    CSCB20 - Home
+{% endblock %}
+
+{% block titletext %}Introduction to Databases and Web Applications{% endblock %}
+{% block content %}
+    <div id="textdiv">
+        <p id="welcome">Welcome</p>
+
+
+        <h2 class="second-title">Course Description</h2>
+        <p class="textcontent"><span class="first-letter">A&nbsp;</span>
+            practical introduction to databases and Web app development. Databases: terminology and applications;
+            creating, querying and updating databases; the entity-relationship model for database design. Web documents
+            and applications: static and interactive documents; Web servers and dynamic server-generated content; Web
+            application development and interface with databases.</p>
+
+        <p class="textcontent-sub"><strong>Prerequisite</strong> Some experience with programming in an imperative
+            language such as Python, Java or C.
+        </p>
+
+
+        <p class="textcontent-sub"><strong>Exclusion</strong> This course may not be taken after - or concurrently with
+            - any C- or D-level CSC course.
+
+        </p>
+
+        <p class="textcontent-sub"><strong>Syllabus</strong><a class="clickable" href="/static/course_info/syllabus.pdf"
+                                                               target="_blank"> PDF</a></p>
+
+        <h2 class="second-title">Instructor</h2>
+        <p class="textcontent">Dr. Anna Bretscher</p>
+        <p class="textcontent">Email:&nbsp;&nbsp;&nbsp;&nbsp;<a class="clickable" href="mailto:bretscher@utsc.utoronto.ca">bretscher@utsc.utoronto.ca</a></p>
+        <p class="textcontent">Office:&nbsp;&nbsp;&nbsp;&nbsp;IC493</p>
+        <p class="textcontent">Phone:&nbsp;&nbsp;&nbsp;&nbsp;(416) 208-4745</p>
+        <p class="textcontent">Lectures:&nbsp;&nbsp;&nbsp;&nbsp;Mondays 9:15-11:00 in HW 216</p>
+        <p class="textcontent">Office Hours:&nbsp;&nbsp;&nbsp;&nbsp;W 11:00-12:00</p>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+.filelist {
+    margin-left: 7%;
+    font-size: 1.5em;
+}
+
+#firstline {
+    margin-top: 60px;
+}
+
+#nav-labs {
+    color: white;
+    background: linear-gradient(#13191e 10%,#1f2a32 90%);
+}

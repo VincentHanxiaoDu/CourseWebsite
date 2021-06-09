@@ -1,0 +1,17 @@
+.errdiv {
+    text-align: center;
+     margin-top: 60px;
+}
+
+.errmsg {
+    color: crimson;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+@media (max-width: 550px) {
+    .errmsg {
+        font-size: 1em;
+    }
+}

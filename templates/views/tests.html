@@ -1,0 +1,58 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/tests.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - Tests
+{% endblock %}
+
+{% block titletext %}
+    Tests
+{% endblock %}
+
+{% block content %}
+    <h2 class="second-title">Midterm</h2>
+    <p class="textcontent">There will be one midterm. The midterm will be 75min in length. You should go to either HW215
+        or HW216 depending on your last name as shown here.</p>
+    <div id="tests-table" class="table">
+        <div class="test-item" id="th">
+            <div class="course">Course</div>
+            <div class="date">Date</div>
+            <div class="capacity">Capacity</div>
+            <div class="room">Room #</div>
+            <div class="last-name">Last Name</div>
+            <div class="num-students"># of Student</div>
+        </div>
+        <div class="test-item">
+            <div class="course">CSCB 20</div>
+            <div class="date">Monday 13 February</div>
+            <div class="capacity">50</div>
+            <div class="room">HW 215</div>
+            <div class="last-name">A - HE</div>
+            <div class="num-students">48</div>
+        </div>
+        <div class="test-item">
+            <div class="course">A.Bretscher</div>
+            <div class="date">@5:00 PM</div>
+            <div class="capacity">110</div>
+            <div class="room">HW 216</div>
+            <div class="last-name">HO - Z</div>
+            <div class="num-students">108</div>
+        </div>
+        <div class="test-item">
+            <div class="course"></div>
+            <div class="date"></div>
+            <div class="capacity">160</div>
+            <div class="room"></div>
+            <div class="last-name">TOTAL</div>
+            <div class="num-students">156</div>
+        </div>
+    </div>
+    <p class="textcontent"><em>Preparing for the midterm:</em></p>
+    <p class="textcontent">Understand all parts of A1.</p>
+    <p class="textcontent">The midterm will cover everything on databases that we did from the start until part way
+        through the week 6 lecture.</p>
+    <p class="textcontent">Once you have done some preparation, you can practice on a previous midterm: <a
+            target="_blank" class="clickable" href="/static/midterm/midterm.pdf">Term Test</a></p>
+{% endblock %}

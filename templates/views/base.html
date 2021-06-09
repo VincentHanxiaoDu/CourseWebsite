@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/static/css/views/common.css">
+    {% block head %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+
+</head>
+<body>
+<div id="smile">:D</div>
+
+<div id="nav">
+    <div id="home"><a href="/">CSCB20</a></div>
+
+    <div id="links">
+        <div id="links1">
+            <a class="link1" id="nav-calendar" href="/calendar">Calendar</a>
+            <a class="link1" id="nav-news" href="/news">News</a>
+            <a class="link1" href="https://piazza.com/mail.utoronto.ca/winter2016/cscb20/home" target="_blank"
+               id="line2">Discussion<br>Board</a>
+            <a class="link1" id="nav-lectures" href="/lectures">Lectures</a>
+        </div>
+
+        <div id="links2">
+            <a class="link2" id="nav-labs" href="/labs">Labs</a>
+            <a class="link2" id="nav-assignments" href="/assignments">Assignments</a>
+            <a class="link2" id="nav-tests" href="/tests">Tests</a>
+            <a class="link2" id="nav-resources" href="/resources">Resources</a>
+        </div>
+    </div>
+</div>
+
+<div id="topflag"></div>
+<div id="title"><span id="titletext">{% block titletext %}{% endblock %}</span></div>
+
+<div id="content">
+    {% block content %}{% endblock %}
+    <div id="footer">
+        <a class="clickable" href="http://web.cs.toronto.edu/" target="_blank">Department of Computer Science at UofT</a>
+        <span>Site designed by Hanxiao Du & JiaQi Hu</span>
+    </div>
+</div>
+
+<a id="top" href="#topflag"><img src="/static/img/arrowup.jpg" alt="top"></a>
+
+</body>
+</html>

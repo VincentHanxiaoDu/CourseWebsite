@@ -1,0 +1,78 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/labs.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - Labs
+{% endblock %}
+
+{% block titletext %}
+    Labs
+{% endblock %}
+
+{% block content %}
+     <h2 class="second-title">Tutorial Sections</h2>
+    <p class="textcontent">Please go the tutorial section that you signed up for on ROSI.</p>
+
+    <h2 class="second-title">Tutorial Exercises</h2>
+    <p class="textcontent">This section contains the tutorial exercises.</p>
+    <p class="textcontent">Tutorials are held every week. The first tutorial week is week 2. Please make use of this
+        valuable resource!</p>
+
+    <div id="labs-table" class="table">
+        <div class="lab-item" id="th">
+            <div class="week">Week</div>
+            <div class="lab">Lab</div>
+            <div class="solutions">Solutions</div>
+        </div>
+
+         <div class="lab-item">
+            <div class="week">2</div>
+            <div class="lab"><a class="clickable" href="/labs/tutorial1">Python, Command line</a></div>
+            <div class="solutions"></div>
+        </div>
+
+         <div class="lab-item">
+            <div class="week">3</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut3/handout.pdf" target="_blank">PDF</a></div>
+            <div class="solutions"></div>
+        </div>
+
+        <div class="lab-item">
+            <div class="week">4</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut4/handout.pdf" target="_blank">PDF </a><a class="clickable" href="/static/tut/tut4/university.sql" target="_blank"> university.sql</a></div>
+            <div class="solutions"><a class="clickable" href="/static/tut/tut4/sample_soln.html" target="_blank">Solns</a></div>
+        </div>
+         <div class="lab-item">
+            <div class="week">5</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut5/handout.pdf" target="_blank">PDF </a></div>
+            <div class="solutions"><a class="clickable" href="/static/tut/tut5/sample_soln.html" target="_blank">Solns</a></div>
+        </div>
+        <div class="lab-item">
+            <div class="week">6</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut6/handout.pdf" target="_blank">PDF </a></div>
+            <div class="solutions"><a class="clickable" href="/static/tut/tut6/sample_soln.html" target="_blank">Solns</a></div>
+        </div>
+        <div class="lab-item">
+            <div class="week">7</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut7/handout.pdf" target="_blank">PDF </a></div>
+            <div class="solutions"></div>
+        </div>
+        <div class="lab-item">
+            <div class="week">8</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut8/handout.pdf" target="_blank">PDF </a></div>
+            <div class="solutions"></div>
+        </div>
+        <div class="lab-item">
+            <div class="week">9</div>
+            <div class="lab"><a class="clickable" href="/static/tut/tut9/handout.pdf" target="_blank">PDF </a></div>
+            <div class="solutions"></div>
+        </div>
+        <div class="lab-item">
+            <div class="week">10</div>
+            <div class="lab"><a class="clickable" href="https://www.w3schools.com/jquery/jquery_syntax.asp" target="_blank">W3 tutorial </a>Work through the tutorial for jQuery up until jQuery Remove.</div>
+            <div class="solutions"></div>
+        </div>
+    </div>
+{% endblock %}

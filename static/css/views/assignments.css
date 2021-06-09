@@ -1,0 +1,61 @@
+#nav-assignments {
+    color: white;
+    background: linear-gradient(#13191e 10%,#1f2a32 90%);
+}
+
+.red {
+    color: red;
+}
+
+
+#ass-table {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: #2b5b84;
+}
+
+#th {
+    color: black;
+}
+
+.ass-item {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.ass-item > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.exercise {
+    flex: 1;
+}
+
+#double {
+    padding: 0;
+}
+
+.topic {
+    flex: 1;
+}
+
+.weight {
+    flex: 0.8;
+}
+
+.due-date {
+    flex: 5.5;
+}
+
+.solution {
+    flex: 0.8;
+}
+
+.red {
+    color: Red;
+}

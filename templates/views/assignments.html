@@ -1,0 +1,73 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/assignments.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - Assignments
+{% endblock %}
+
+{% block titletext %}
+    Assignments
+{% endblock %}
+
+{% block content %}
+     <h2 class="second-title">Overview</h2>
+    <p class="textcontent">Here are the assignment and exercise topics, weights, and due dates. I will be posting the
+        exercise and assignment handouts here. All exercises and assignments will be submitted on MarkUs.</p>
+    <h2 class="second-title">Assignments</h2>
+    <div id="ass-table" class="table">
+        <div class="ass-item" id="th">
+            <div class="exercise">Exercise</div>
+            <div class="topic" id="double">Topic<br>(tentative)</div>
+            <div class="weight">Weight</div>
+            <div class="due-date">Due Date</div>
+            <div class="solution">Solution</div>
+        </div>
+        <div class="ass-item">
+            <div class="exercise"><a target="_blank" class="clickable" href="/static/assignments/exercise/handout.pdf">Handout</a>
+            </div>
+            <div class="topic">Relational Algebra and MySQL</div>
+            <div class="weight">15%</div>
+            <div class="due-date">Part 1. Wednesday Feb. 1, 11.59pm, Submit to <a target="_blank" class="clickable" href="https://markus.utsc.utoronto.ca/cscb20w19/?locale=en">MarkUs</a>
+                <span class="red" >UPDATED</span>
+                Part 2 and 3. For 5% bonus Saturday Feb. 11, 11.59pm or Friday Feb. 17, 11.59 Submit to <a target="_blank"
+                        class="clickable" href="https://markus.utsc.utoronto.ca/cscb20w19/?locale=en">MarkUs</a>
+                You can download a dumpfile for IMDB_SMALL <a target="_blank" class="clickable"
+                                                              href="/static/assignments/duedate/IMDB_SMALL.sql">here</a>
+                <br>
+                .To use it type mysql -u utorid -p < IMDB_SMALL.sql
+            </div>
+            <div class="solution"><a target="_blank" class="clickable" href="/static/assignments/solution/sol.pdf">Solution Part 1</a></div>
+        </div>
+        <div class="ass-item">
+            <div class="exercise"><a target="_blank" class="clickable" href="/static/assignments/exercise/handout%20a2.zip">Handout
+                a2.zip</a></div>
+            <div class="topic">HTML, CSS, PHP</div>
+            <div class="weight">15%</div>
+            <div class="due-date">Part 1: Worth 50% Friday March. 10, 11.59pm, Submit to <a target="_blank" class="clickable" href="https://markus.utsc.utoronto.ca/cscb20w19/?locale=en">MarkUs</a>
+                <br>
+                Part 2: Worth 50% Friday March. 19, 11.59pm, Submit to <a target="_blank" class="clickable" href="https://markus.utsc.utoronto.ca/cscb20w19/?locale=en">MarkUs</a>
+            </div>
+            <div class="solution"></div>
+        </div>
+        <div class="ass-item">
+            <div class="exercise"><span class="red">New </span><a target="_blank" class="clickable"
+                                                                         href="/static/assignments/exercise/a3_marking_scheme.txt">Marking
+                Scheme for
+                A3 </a>
+                <br>
+                <a target="_blank" class="clickable" href="/static/assignments/exercise/handout%20a3.pdf">Handout</a>
+            </div>
+            <div class="topic">Web Application and Database</div>
+            <div class="weight">15%</div>
+            <div class="due-date">Friday March 31, 11.59pm</div>
+            <div class="solution"></div>
+        </div>
+    </div>
+    <h2 class="second-title">FAQ - Assignment 1</h2>
+    <p class="textcontent">Q. If the mysql portion asks for a director or actor without specifying which attributes,
+        what should I return?
+        <br>
+        A. Return the first name, last name. </p>
+{% endblock %}

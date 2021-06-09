@@ -1,0 +1,42 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/tutorial1.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - TUT1
+{% endblock %}
+
+{% block titletext %}
+    Tutorial1
+{% endblock %}
+
+{% block content %}
+    <p class="textcontent" id="back_labs"><a class="clickable" href="/labs">< Back</a></p>
+    <p class="textcontent" id="firstline">Today we're going to take a speed-refresher of Python, especially relevant for
+        those of you who have not taken one or more of A08, A48, A20.</p>
+    <p class="textcontent">We'll use the Wing Integrated Development Environment (IDE) to explore simple programs
+        incorporating iteration, selection, and functions.</p>
+    <p class="textcontent">Today's review material is summarized on this <a class="clickable"
+                                                                            href="/static/tut/tut2/tut1_handout.html"
+                                                                            target="_blank">handout</a>.</p>
+    <h2 class="second-title">Sample/Starter Code</h2>
+
+    <ul class="filelist">
+        <li><a class="clickable" href="/static/tut/tut2/math_str.py" target="_blank">math_str.py</a></li>
+        <li><a class="clickable" href="/static/tut/tut2/lists.py" target="_blank">lists.py</a></li>
+        <li><a class="clickable" href="/static/tut/tut2/nested.py" target="_blank">nested.py</a></li>
+        <li><a class="clickable" href="/static/tut/tut2/while.py" target="_blank">while.py</a></li>
+        <li><a class="clickable" href="/static/tut/tut2/file_basics.py" target="_blank">file_basics.py</a></li>
+    </ul>
+
+    <h2 class="second-title">References</h2>
+
+    <ul class="filelist">
+        <li><a class="clickable" href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+               target="_blank">Function definitions</a></li>
+        <li><a class="clickable" href="http://effbot.org/librarybook/os.htm"
+               target="_blank">The OS module for working with files</a></li>
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/views/login.js"></script>
+    <link rel="stylesheet" href="/static/css/views/login.css">
+</head>
+<body>
+<div id="title"><span>CSCB20</span></div>
+<div id="login-frame">
+    <div id="login-title">Login</div>
+    <div id="username-frame"><label class="label" for="username">Username: </label>
+        <input placeholder="Username" id="username" class="input"></div>
+    <div id="password-frame"><label class="label" for="password">Password: </label>
+        <input placeholder="Password" id="password" class="input" type="password"></div>
+
+    <div id="type-frame"><label class="label" for="type">Acc Type: </label>
+        <select id="type" class="input">
+            <option value="student">Student</option>
+            <option value="instructor">Instructor</option>
+        </select></div>
+    <div id="buttons">
+        <button id="submit" class="button">Submit</button>
+        <button id="register" class="button">Sign up</button>
+    </div>
+</div>
+
+
+<div id="register-frame">
+    <div id="login-title">Register</div>
+    <div id="reg-username-frame"><label class="label" for="reg-username">Username: </label>
+        <input placeholder="Username" id="reg-username" class="input"></div>
+    <div id="reg-password-frame"><label class="label" for="reg-password">Password: </label>
+        <input placeholder="Password" id="reg-password" class="input" type="password"></div>
+    <div id="reg-firstname-frame"><label class="label" for="reg-firstname">First Name: </label>
+        <input placeholder="First name" id="reg-firstname" class="input"></div>
+    <div id="reg-lastname-frame"><label class="label" for="reg-lastname">Last Name: </label>
+        <input placeholder="Last name" id="reg-lastname" class="input"></div>
+     <div id="reg-type-frame"><label class="label" for="reg-type">Acc Type: </label>
+        <select id="reg-type" class="input">
+            <option value="student">Student</option>
+            <option value="instructor">Instructor</option>
+        </select></div>
+    <div id="reg-buttons">
+        <button id="reg-submit" class="button">Submit</button>
+        <button id="login" class="button">Login</button>
+    </div>
+</div>
+
+</body>
+</html>

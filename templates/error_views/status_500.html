@@ -1,0 +1,16 @@
+{% extends "error_views/base_error.html" %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Internal Server Error - 500
+{% endblock %}
+
+{% block titletext %}
+    500 - Server Internal Error!
+{% endblock %}
+
+{% block content_div %}
+    Sorry, the server encountered an internal error and was unable to complete your request.
+{% endblock %}

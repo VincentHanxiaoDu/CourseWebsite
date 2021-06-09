@@ -1,0 +1,53 @@
+#tests-table {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: #2b5b84;
+}
+
+#nav-tests {
+    color: white;
+    background: linear-gradient(#13191e 10%,#1f2a32 90%);
+}
+
+#th {
+    color: black;
+}
+
+.test-item {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.test-item > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.course {
+    flex: 1.2;
+}
+
+.date {
+    flex: 1.5;
+}
+
+.capacity {
+    flex: 0.8;
+}
+.room {
+    flex: 1;
+}
+.last-name {
+    flex: 1;
+}
+.num-students {
+    flex: 1;
+}
+
+
+
+

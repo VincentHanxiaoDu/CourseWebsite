@@ -1,0 +1,41 @@
+#labs-table {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: #2b5b84;
+}
+
+#nav-labs {
+    color: white;
+    background: linear-gradient(#13191e 10%,#1f2a32 90%);
+}
+
+#th {
+    color: black;
+}
+
+
+.lab-item {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.lab-item > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.week {
+    color: black;
+    flex: 1;
+}
+
+.lab {
+    flex: 6;
+}
+.solutions {
+    flex: 1.5;
+}

@@ -1,0 +1,18 @@
+{% extends "error_views/base_error.html" %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block title %}
+    Exception!
+{% endblock %}
+
+{% block titletext %}
+    Unknown Error!
+{% endblock %}
+
+
+{% block content_div %}
+    Sorry, Something went wrong with the requested URL {{ url }}, please try again!
+{% endblock %}
+

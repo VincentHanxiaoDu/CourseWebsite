@@ -1,0 +1,166 @@
+{% extends "views/base.html" %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/views/lectures.css">
+{% endblock %}
+
+{% block title %}
+    CSCB20 - Lectures
+{% endblock %}
+
+{% block titletext %}
+    Lectures
+{% endblock %}
+
+{% block content %}
+     <h2 class="second-title">Lecture Schedule</h2>
+
+    <p class="textcontent">Please print and bring these notes/worksheets to class.
+        </p>
+    <div id="lectures-table" class="table">
+        <div class="lecture" id="th">
+            <div class="week">Week</div>
+            <div class="topic">Topic</div>
+            <div class="reading">Reading</div>
+            <div class="material" id="material">Lecture Material</div>
+            <div class="inclass">In Class</div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">1</div>
+            <div class="topic">Introduction, Databases background</div>
+            <div class="reading"></div>
+            <div class="material"><a class="clickable" href="/static/lectures/week1/w1.pdf" target="_blank">PDF</a><a
+                    class="clickable" href="/static/lectures/week1/w1_handout.pdf"
+                    target="_blank">&nbsp;&nbsp;Handout</a></div>
+            <div class="inclass"></div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">2</div>
+            <div class="topic">Schema Diagrams, Relational Algebra</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week2/w2.pdf" target="_blank">PDF</a>
+                <a class="clickable" href="/static/lectures/week2/schema_relational_algebra.pdf" target="_blank">&nbsp;&nbsp;Worksheet</a><br>
+                <a class="clickable" href="/static/lectures/week2/schema_relational_algebra_soln.pdf" target="_blank">&nbsp;&nbsp;Worksheet
+                    Solutions</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">3</div>
+            <div class="topic">SQL and MySQL</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week3/w3.pdf" target="_blank">PDF</a>
+                <a class="clickable" href="/static/lectures/week3/ppt_printable.pdf" target="_blank">&nbsp;&nbsp;Printable
+                    PDF</a><br>
+                <a class="clickable" href="/static/lectures/week3/mysql_intro.pdf" target="_blank">&nbsp;&nbsp;MySQL
+                    Worksheet</a>
+            </div>
+            <div class="inclass">
+                <a class="clickable" href="/static/lectures/week3/week3_inclass.rtf" target="_blank" download="week3_inclass.rtf">In
+                    Class MySQL</a>
+            </div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">4</div>
+            <div class="topic">MySQL Queries, Creating and Editing Tables</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week4/w4.pdf" target="_blank">PDF</a>
+                <a class="clickable" href="/static/lectures/week4/ppt_printable.pdf" target="_blank">&nbsp;&nbsp;Printable
+                    PDF</a><br>
+                <a class="clickable" href="/static/lectures/week4/more_mysql.pdf" target="_blank">&nbsp;&nbsp;MySQL
+                    Worksheet Solutions</a>
+            </div>
+            <div class="inclass">
+                <a class="clickable" href="/static/lectures/week4/week4_inclass.rtf" target="_blank" download="week4_inclass.rtf">In
+                    Class MySQL</a>
+            </div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">5</div>
+            <div class="topic">MySQL Outer Joins, Views, NULL, string functions, HTML</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week5/w5.pdf" target="_blank">PDF</a>
+                <a class="clickable" href="/static/lectures/week5/mysql_views.pdf" target="_blank">&nbsp;&nbsp;MySQL
+                    Views Worksheet Solutions</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">6</div>
+            <div class="topic">HTML, CSS</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week6/w6.pdf" target="_blank">PDF</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">7</div>
+            <div class="topic">PHP</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week7/w7.pdf" target="_blank">PDF</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+
+        <div class="lecture">
+            <div class="week">8</div>
+            <div class="topic">PHP and SQL</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week8/w8.pdf" target="_blank">PDF</a>
+            </div>
+            <div class="inclass">
+                Empty starter file: <a class="clickable" href="/static/lectures/week8/query.php" target="_blank"
+                                       download="query.php">query.php</a> To look at the txt for this file, download
+                this <a class="clickable" href="/static/lectures/week8/php_query.txt" target="_blank"
+                        download="php_query.txt">php_query.txt</a>
+            </div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">9</div>
+            <div class="topic">JavaScript and jQuery</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week9/w9.pdf" target="_blank">PDF</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+        <div class="lecture">
+            <div class="week">10</div>
+            <div class="topic">jQuery, AJAX, JSON</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week10/w10.pdf" target="_blank">PDF</a>
+                <a class="clickable" href="/static/lectures/week10/forms_printable.pdf" target="_blank">&nbsp;&nbsp;Printable
+                    PDF</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+
+
+        <div class="lecture">
+            <div class="week">11</div>
+            <div class="topic">Last Year's final</div>
+            <div class="reading"></div>
+            <div class="material">
+                <a class="clickable" href="/static/lectures/week11/final_f16.pdf" target="_blank">W16 Final</a>
+            </div>
+            <div class="inclass"></div>
+        </div>
+    </div>
+{% endblock %}

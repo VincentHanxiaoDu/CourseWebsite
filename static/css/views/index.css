@@ -1,0 +1,23 @@
+#textdiv {
+    width: 100%;
+}
+
+#welcome {
+    margin-top: 50px;
+    font-family: Flux-Regular, SourceSansProRegular, Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
+
+#course-description {
+    width: 100%;
+}
+
+.textcontent-sub {
+    font-size: 1.5em;
+    float: top;
+    width: 80%;
+    margin-left: 10%;
+}
+
